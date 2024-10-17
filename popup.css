@@ -1,0 +1,67 @@
+html {
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.question-container{
+    /* background-color: aliceblue; */
+    /* margin: .5rem; */
+    margin: .5rem .5rem 0 .5rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.buttons-container {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 .5rem .5rem .5rem;
+    justify-content: space-evenly;
+    height: 11.5rem;
+}
+
+.tip-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 85%;
+    height: 2.75rem;
+    border-color: lightgrey;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+hr {
+    border: none;
+    height: 2px;  /* Set a thicker line */
+    background-color: lightgrey;  /* Make it a visible color */
+    width: 90%;  /* Make it span the full width of its container */
+    margin: 1rem auto;  /* Add some spacing above and below */
+    color: black;
+ 
+}
+
+p {
+    color: gray
+}
