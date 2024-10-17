@@ -2,9 +2,28 @@
 <html lang="en">
   <head>
     <title>SIMPLIFAI</title>
+    <link rel="stylesheet" href="popup.css">
   </head>
   <body>
-    <button id="sidepanel-button">Click for sidepanel</button>
+
+    <div class="container">
+      <!-- <button id="sidepanel-button">Click for sidepanel</button> -->
+      <div class="question-container">
+        <h2>What would you like to do?</h2>
+        <hr>
+      </div>
+      <div class="buttons-container">
+        <button id="simplify-button">Simplify</button>
+        <button id="explain-button">Explain</button>
+        <button id="summarize-button">Summarize</button>
+      </div>
+      <div class="tip-container">
+        <p><em>Tip: highlight text, then right-click for options!</em></p>
+      </div>
+
+
+    </div>
+
   </body>
   <script src="contentScript.js"></script>
 </html>
