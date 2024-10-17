@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SIMPLIFAI",
+  "version": "1.0",
+  "description": "A chrome extension to simplify and summarize highlighted text.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "contextMenus", "scripting", "sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
