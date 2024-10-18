@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "SIMPLIFAI",
+  "name": "Simply",
   "version": "1.0",
   "description": "A chrome extension to simplify and summarize highlighted text.",
   "action": {

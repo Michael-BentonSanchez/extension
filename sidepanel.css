@@ -1,0 +1,60 @@
+html {
+    width: 100%;
+}
+
+.container {
+    background-color: #f0f8ff;
+    height: 30rem;
+    margin: .25rem;
+
+}
+
+
+/* .close-container {
+    margin: .5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: bisque;
+}
+
+#close-button{
+    height: 2.75rem;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    cursor: pointer;
+    width: 25%;
+} */
+
+.buttons-container {
+    margin: 2rem .25rem .25rem .25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#simplify-button, #summarize-button, #explain-button {
+    height: 2.75rem;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    cursor: pointer;
+    width: 27.5%;
+}
+
+.title-container {
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-container {
+    margin: 0 .75rem .5rem .75rem;
+    background-color: aqua;
+}
+
+.info-container p {
+    font-size: 20px;
+}
